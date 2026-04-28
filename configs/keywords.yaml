@@ -1,0 +1,115 @@
+# Keyword pre-filter for the Sutro Group lens (energy-efficient training +
+# broader training-efficiency). A paper passes the pre-filter if ANY term in
+# any group hits its title, abstract, tldr, keywords, or primary_area
+# (case-insensitive substring match unless the term has `\b` regex anchors).
+#
+# Add/remove freely. Recall > precision here -- the LLM stage filters again.
+
+groups:
+  energy_and_compute:
+    - energy efficient
+    - energy-efficient
+    - compute efficient
+    - compute-efficient
+    - flop
+    - flops
+    - watt
+    - joule
+    - carbon
+    - green ai
+    - efficient training
+
+  data_movement_and_memory:
+    - data movement
+    - memory bandwidth
+    - memory hierarchy
+    - cache
+    - locality
+    - reuse distance
+    - dram
+    - hbm
+    - memory access
+    - io complexity
+    - i/o complexity
+
+  sparsity:
+    - sparse
+    - sparsity
+    - pruning
+    - block-sparse
+    - structured sparsity
+    - n:m sparsity
+    - mixture of experts
+    - moe
+
+  precision_and_quantization:
+    - quantization
+    - quantized
+    - low precision
+    - low-precision
+    - int8
+    - int4
+    - fp8
+    - fp4
+    - 1-bit
+    - bitnet
+    - posit
+
+  optimizers_and_training_dynamics:
+    - optimizer
+    - second-order
+    - adam
+    - adamw
+    - shampoo
+    - sophia
+    - muon
+    - lion
+    - learning rate schedule
+    - phase transition
+
+  scaling_and_compute_optimal:
+    - scaling law
+    - chinchilla
+    - compute optimal
+    - compute-optimal
+    - data efficient
+    - data-efficient
+    - sample efficient
+
+  distillation_and_compression:
+    - distillation
+    - knowledge distillation
+    - model compression
+    - lottery ticket
+    - low rank
+    - low-rank
+    - lora
+
+  hardware_aware:
+    - hardware aware
+    - hardware-aware
+    - kernel
+    - cuda
+    - tensor core
+    - systolic
+    - asic
+    - fpga
+    - in-memory computing
+    - analog
+
+  bio_plausible_and_local:
+    - hebbian
+    - predictive coding
+    - equilibrium propagation
+    - target propagation
+    - forward forward
+    - forward-forward
+    - local learning
+    - biologically plausible
+
+  sparse_parity_and_benchmarks:
+    - sparse parity
+    - parity task
+    - grokking
+    - phase transition
+    - mechanistic interpretability of training
