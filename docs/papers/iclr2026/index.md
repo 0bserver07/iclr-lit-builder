@@ -6,12 +6,70 @@
 - **3** — [ENERGYLLM-BENCH:AREPRODUCIBLEBENCHMARKFORENERGYAND CARBONFOOTPRINTOFLARGELANGUAGEMODELS](0FbhKezdBK.md) — The paper introduces a reproducible benchmark for energy-efficient LLM evaluation, including low-pre
 - **3** — [Scaling Laws for Fully Sparsely-Activated Large Language Models](0Iw52EDu82.md) — The paper directly investigates sparsity in LLMs, deriving scaling laws for fully sparsely-activated
 - **3** — [Pruning with Occam's Razor](0LKnVeXBGK.md) — The paper directly advances energy-efficient training by integrating pruning with gradient descent t
+- **3** — [Understanding Dataset Distillation via Spectral Filtering](0h5ohpUGY4.md) — Directly advances energy-efficient training through dataset distillation, which reduces data require
+- **3** — [Why Low-Precision Transformer Training Fails: An Analysis on Flash Attention](0jHyEKHDyx.md) — Directly addresses low-precision training instability and proposes a fix, aligning with Sutro Group'
+- **3** — [Efficient Resource-Constrained Training of Transformers via Subspace Optimization](0nvQ5kHXf4.md) — Directly advances energy-efficient training by reducing memory and compute via subspace optimization
+- **3** — [Toward Bit-Efficient Dataset Condensation: A General Framework](0qVu2WsDle.md) — The paper introduces a low-precision quantization method for dataset condensation, directly reducing
+- **3** — [Quantization with Purpose: Loss-Aware Bit Allocation for Gradient Compression](0wCTDqkK8I.md) — Directly advances energy-efficient training by reducing data movement via loss-aware gradient quanti
+- **3** — [ESSA: Evolutionary Strategies for Scalable Alignment](1MX3QC0bSH.md) — The paper introduces a gradient-free, hardware-friendly alignment method using evolutionary strategi
+- **3** — [Dataset Distillation via Committee Voting](1dMsKsfwJ1.md) — Directly advances efficient training through dataset distillation, a core Sutro Group priority, redu
+- **3** — [Efficient Fine-Tuning of Quantized Models via Adaptive Rank and Bitwidth](1jXc6SHcUV.md) — The paper directly advances low-precision/quantization and memory-efficient fine-tuning, aligning wi
+- **3** — [Efficient Fine-tuning with Decomposed Foundation Model](23AHaRy1QO.md) — Directly advances memory- and compute-efficient fine-tuning through model decomposition, integrating
+- **3** — [Regularization can make diffusion models more efficient](2AvjgGJg8U.md) — The paper leverages sparsity to reduce computational complexity of diffusion models, directly aligni
+- **3** — [Mitigating Non-IID Drift in Zeroth-Order Federated LLM Fine-Tuning with Transferable Sparsity](2DuMBKVbX2.md) — Directly advances sparsity and communication efficiency (data movement) in federated LLM fine-tuning
+- **3** — [Fantastic Pretraining Optimizers and Where to Find Them](2J51qUZ0iG.md) — The paper directly evaluates optimizers for pretraining efficiency, a named Sutro Group priority, ai
+- **3** — [Rapid Training of Hamiltonian Graph Networks Using Random Features](2T4KxtDquV.md) — Proposes a gradient-descent-free training method achieving 150-600x speedup, directly advancing trai
+- **3** — [HiDivDrop: Vision Token Reduction in MLLMs via Late Injection and Differentiable Top-K](2baJBgfr9S.md) — The paper directly advances energy-efficient training by sparsifying visual tokens, reducing data mo
+- **3** — [The Markovian Thinker](3As6AQ9ELI.md) — The paper directly reduces data movement and memory footprint for reasoning models via a Markovian c
+- **3** — [Scaling with Collapse: Efficient and Predictable Training of LLM Families](3YKeB9R1g9.md) — Directly advances compute-efficient training and scaling laws, a named Sutro priority, by showing lo
+- **3** — [Rethinking JEPA: Compute‑Efficient Video Self-Supervised Learning with Frozen Teachers](3cB9243E9i.md) — Directly improves training compute efficiency via a decoupled two-stage method, achieving better per
+- **3** — [Shadow loss: Memory-linear deep metric learning with anchor projection](3fx0Kz6Zfl.md) — The paper directly advances energy-efficient training by reducing memory buffer from O(S*D) to O(S) 
+- **3** — [Towards Distributed Neural Architectures](40sQXprYlm.md) — Directly advances sparsity and data movement efficiency via learned dynamic routing and compute allo
+- **3** — [MAGNET: Multi-granular Adaptive Gradient-guided Knowledge Distillation for Pareto-Efficient Tuning](465S0gvFWc.md) — Directly advances energy-efficient training via knowledge distillation with gradient-guided sparsity
+- **3** — [LD-MoLE: Learnable Dynamic Routing for Mixture of LoRA Experts](4ST2YyTjI7.md) — The paper directly advances energy-efficient training by introducing a dynamic routing mechanism tha
+- **3** — [Textual Equilibrium Propagation for Deep Compound AI Systems](4XsV5Qoj0j.md) — Proposes a local learning method inspired by biologically-plausible Equilibrium Propagation, directl
+- **3** — [Dynamic Rank Adjustment for Accurate and Efficient Neural Network Training](54BPFBsT2p.md) — Directly advances energy-efficient training by reducing computational cost through low-rank training
+- **3** — [FLARE: Fast Low-rank Attention Routing Engine](5tdICOjjwI.md) — Proposes an efficient low-rank attention mechanism that reduces compute and memory, avoids materiali
+- **3** — [MT-DAO: Multi-Timescale Distributed Adaptive Optimizers with Local Updates](5yPP238v4c.md) — Directly tackles communication efficiency by reducing data movement in distributed training of large
+- **3** — [Quantize-then-Rectify: Accelerating VQ-VAE Training in Latent Feature Space](6193b311kq.md) — The paper directly advances energy-efficient training by dramatically reducing VQ-VAE training cost 
+- **3** — [Stochastic Layer-wise Learning: Scalable and Efficient Alternative to Backpropagation](64f8NQ9Ptj.md) — Proposes a local learning method that eliminates backpropagation, reducing memory and data movement,
+- **3** — [DES-LOC: Desynced Low Communication Adaptive Optimizers for Foundation Models](6N2qFixxYZ.md) — The paper directly advances energy-efficient training by reducing communication costs in distributed
+- **3** — [A Recovery Guarantee for Sparse Neural Networks](6UpstNltZ4.md) — The paper provides a sparse recovery guarantee for neural networks using iterative hard thresholding
+- **3** — [Online Pseudo-Zeroth-Order Training of Neuromorphic Spiking Neural Networks](6ZietpbPoB.md) — Directly advances biologically-plausible local learning and neuromorphic hardware-friendly training,
+- **3** — [Mutual Information Preserving Neural Network Pruning](6nxI3aELvc.md) — Proposes a sparsity method (pruning) to reduce neural network resource requirements, directly aligne
+- **3** — [SMixer: Rethinking Efficient-Training and Event-Driven SNNs](78glEsQB0v.md) — Directly advances energy-efficient training of spiking neural networks through sparsity (spatial-tem
+- **3** — [Winner-Take-All Spiking Transformer for Language Modeling](7PKGMNcM0w.md) — The paper directly advances energy-efficient AI via sparse, spike-driven, softmax-free spiking trans
+- **3** — [NorMuon: Making Muon more efficient and scalable](7TeJXgr7L6.md) — Directly advances training efficiency and optimizer design, with a distributed implementation that a
+- **3** — [AMiD: Knowledge Distillation for LLMs with $\alpha$-mixture Assistant Distribution](7WPJ0EgPdW.md) — The paper introduces a knowledge distillation framework to reduce computational and memory costs of 
+- **3** — [MoE-PHDS: One MoE checkpoint for flexible runtime sparsity](7Zpoa9OhcM.md) — Directly addresses sparsity and training efficiency by enabling a single MoE checkpoint to serve mul
 
 ## Score 2
 
 - **2** — [Larger Datasets Can Be Repeated More: A Theoretical Analysis of Multi-Epoch Scaling in Linear Regression](0CXjpAxHUE.md) — The paper analyzes multi-epoch training efficiency, quantifying when data reuse is effective, which 
 - **2** — [Modular Distillation Makes Small Models Think Like Big Ones](0TXnU2Jtah.md) — The paper's main contribution is a modular distillation framework that improves computing efficiency
 - **2** — [Learning-Domain Decomposition: Interpreting Training Dynamics via Loss Vectors](0aEhB0XqMH.md) — The paper's data pruning method, enabling training with 5% of data, directly contributes to training
+- **2** — [Curriculum-Guided Layer Scaling for Language Model Pretraining](1PCpLJH2IG.md) — The paper's primary contribution is a compute-efficient pretraining method that reduces resource con
+- **2** — [DSA: Efficient Inference For Video Generation Models via Distributed Sparse Attention](1ZmdfDzGE1.md) — The paper introduces sparse attention as a core method for efficient inference, directly advancing s
+- **2** — [UNIFIED MULTI-TEACHER DISTILLATION ACROSS HYBRID NEURAL ARCHITECTURES](1lHp49KdwW.md) — The paper's main contribution is a multi-teacher distillation method that reduces training data requ
+- **2** — [Learning a Zeroth-Order Optimizer for Fine-Tuning LLMs](2Dn4yHYLQJ.md) — The paper proposes a learned zeroth-order optimizer to reduce memory consumption during LLM fine-tun
+- **2** — [Matrix-Free Least Squares Solvers: Values, Gradients, and What to Do With Them](2El3N64oAH.md) — The paper makes sparsity (enforcing weight sparsity on a 50M parameter model) a main contribution, d
+- **2** — [Critique-Guided Distillation for Efficient and Robust Language Model Reasoning](2EvMmC23sC.md) — The paper proposes a knowledge distillation method that significantly reduces compute requirements (
+- **2** — [Boost Post-Training Quantization via Null Space Optimization for Large Language Models](2NbpGdeMP7.md) — The paper focuses on post-training quantization for LLMs, aligning with the Sutro Group's interest i
+- **2** — [HOBA: Higher-Order Block-Diagonal Attention Unrolling for Transformer](2tNlroZztK.md) — The paper's main contribution is a sparse attention mechanism (block-diagonal) that reduces computat
+- **2** — [Data-Efficient Training by Evolved Sampling](35yxQ6CuVT.md) — The paper's main contribution is dynamic data selection for training acceleration, a form of trainin
+- **2** — [EAST: Early Action Prediction Sampling Strategy with Token Masking](3Genv8DQgf.md) — Token masking procedure cuts memory usage and accelerates training, making training efficiency a mai
+- **2** — [LoRA Meets Second-Order Optimization: Towards Optimal Low-Rank Updates](3IGUspVNtk.md) — Proposes a second-order optimizer for low-rank fine-tuning that improves convergence and reduces tra
+- **2** — [Catalyst: Reveal the Geometry of Pruning by Reshaping Neural Network](3O8TAbrMKW.md) — The paper introduces a novel structured pruning regularization that is a core sparsity technique, di
+- **2** — [MSAVQ: Multi-dimensional Sensitivity-Aware Vector Quantization for Ultra-Low-Bit Vision-Language Models](3cM4CCoFpe.md) — Quantization is a main contribution, aligning with the low-precision interest, but the paper targets
+- **2** — [Boomerang Distillation Enables Zero-Shot Model Size Interpolation](4ZU8v4s3IR.md) — The paper's main contribution is a distillation method that reduces training cost by interpolating m
+- **2** — [NIRVANA: Structured Pruning Reimagined for Large Language Models Compression](55K9BdoOlo.md) — The paper's main contribution is structured pruning, directly related to the sparsity priority area 
+- **2** — [Generalization and Scaling Laws for Mixture-of-Experts Transformers](57D4Uaiiyi.md) — The paper's main contribution is theoretical scaling laws and generalization bounds for sparse (MoE)
+- **2** — [Listens like Mel: Boosting Latent Audio Diffusion with Channel Locality](5PBKxl7o49.md) — Faster convergence directly improves training efficiency, making efficiency a main contribution, tho
+- **2** — [AlignPrune: Robust Dynamic Data Pruning through Loss Trajectory Alignment](6LFZreN1YX.md) — The paper advances dynamic data pruning, a technique for efficient training by reducing data usage, 
+- **2** — [Attention and Compression is all you need for Controllably Efficient Language Models](6rYa2BUnTt.md) — The paper's main contribution is an efficient architecture that reduces compute and memory via compr
+- **2** — [CoDA: From Text-to-Image Diffusion Models to Training-Free Dataset Distillation](6ycBM1nsS3.md) — The paper's main contribution is a training-free dataset distillation method that eliminates the pro
+- **2** — [Asynchronous Matching with Dynamic Sampling for Multimodal Dataset Distillation](7SgSMKM2KF.md) — The paper advances dataset distillation, a technique to reduce training data size and improve effici
+- **2** — [Exploring Knowledge Purification in Multi-Teacher Knowledge Distillation for LLMs](7pvJoB4aKO.md) — The paper proposes knowledge purification to reduce resource demands in multi-teacher distillation, 
 
 ## Score 1
 
@@ -26,3 +84,126 @@
 - **1** — [ECMNet: Lightweight Semantic Segmentation with Efficient CNN-Mamba Network](0YV1iyqz16.md) — The paper proposes a lightweight segmentation model focusing on inference efficiency (parameter coun
 - **1** — [Disentangling Token Dependencies for Efficient Decoding in Diffusion Language Models](0ZSLZWAmWo.md) — The paper focuses on inference efficiency for diffusion language models via knowledge distillation, 
 - **1** — [MARS: Mamba-driven Adaptive Reordering Scheme for Semantic Occupancy Prediction in Autonomous Driving](0aAfZ4tfPj.md) — The paper focuses on a task-specific architecture for autonomous driving that reduces memory usage a
+- **1** — [Energy Efficient Language Models through Dynamic Sparsity](0apbqOrxV8.md) — Paper focuses on inference efficiency through activation sparsity and quantization for deployment, n
+- **1** — [LoRA: The Past, Present, and Future](0bvYEPH1O5.md) — The paper focuses on parameter-efficient fine-tuning (LoRA variants), tangentially relevant as it me
+- **1** — [Training-Free Determination of Network Width via Neural Tangent Kernel](0elvad3gEu.md) — The paper addresses efficient model sizing to avoid overparameterization, which indirectly reduces t
+- **1** — [Self-Correction via Task Distillation](0fg3OTEUFF.md) — The paper uses task distillation to improve self-correction, which incidentally reduces fine-tuning 
+- **1** — [One Stone Three Birds: Training-free Core-context-aware Attention for Efficient LLM Prefilling, Decoding, and KV Caching](0lGVMSAazo.md) — The paper focuses on inference-time efficiency via training-free sparse attention, tangential to the
+- **1** — [Learning linear state-space models with sparse system matrices](0lct7PrPgS.md) — The paper focuses on sparsity in linear state-space models for system identification, which is tange
+- **1** — [PTQTP: Post-Training Quantization to Trit-Planes for Large Language Models](0mqsIlMtfm.md) — The paper focuses on post-training quantization for efficient inference, not on energy-efficient tra
+- **1** — [Vision as LoRA](0n7dDguNeJ.md) — Mentions efficiency via LoRA merging and distillation for training acceleration, but main contributi
+- **1** — [LeSTD: LLM Compression via Learning-based Sparse Tensor Decomposition](0oHaazjMUX.md) — The paper focuses on post-training compression using sparsity, which is tangential to Sutro Group's 
+- **1** — [Asymmetric Proximal Policy Optimization: mini-critics boost LLM reasoning](0vgzrcv4Dr.md) — The paper mentions computational efficiency of critic training as a motivation for using lightweight
+- **1** — [Vulcan: Crafting Compact Class-Specific Vision Transformers For Edge Intelligence](0xE0kNdGIz.md) — The paper uses structured pruning for post-training model compression, touching on sparsity but not 
+- **1** — [BDQ: Bidirectional Diagonal Quantization for LLMs](0y3aHkDw6Q.md) — The paper focuses on post-training quantization for inference efficiency, not on energy-efficient tr
+- **1** — [Representation Finetuning for Continual Learning](0za6569Jqd.md) — The paper proposes a parameter-efficient finetuning method for continual learning, tangentially rela
+- **1** — [Analyzing and Internalizing Complex Policy Documents for LLM Agents](10XgR4QORn.md) — Tangential: addresses inference efficiency via policy internalization, not energy-efficient training
+- **1** — [Semantic Uncertainty Quantification of Hallucinations in LLMs: A Quantum Tensor Network Based Method](11kPIEkj75.md) — The paper touches on efficiency by evaluating robustness under quantization for resource-constrained
+- **1** — [Emergent Discrete Controller Modules for Symbolic Planning in Transformers](14dlTHVxDX.md) — Mentions a small FLOPs overhead and sparse application, but the main focus is on symbolic planning w
+- **1** — [PUM-Net: Plastic Unified Memory Network with Associative Interaction for Long-Context State Space Models](15KpLriUTU.md) — Tangential: mentions training cost reduction by avoiding sequence length inflation, but the main con
+- **1** — [You Do Not Fully Utilize Transformer's Representation Capacity](1CoJWNcpmm.md) — The paper mentions efficiency gains (lower perplexity per FLOP) but focuses on representation capaci
+- **1** — [FastALM: Hierarchical Frame Q-Former for Effective Audio Modality Adaptation](1Hxtv5kT5Y.md) — The paper focuses on efficient inference for audio-language models by compressing speech features, w
+- **1** — [A Separable Self-attention Inspired by the State Space Model for Computer Vision](1KUMxnrhnH.md) — The paper proposes an efficient separable self-attention with linear complexity, but its main contri
+- **1** — [Fast-dLLM v2: Efficient Block-Diffusion LLM](1NZ3DHF9nT.md) — The paper primarily contributes to inference efficiency through block diffusion and hierarchical cac
+- **1** — [ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference](1USeVjsKau.md) — The paper focuses on post-training quantization for efficient LLM inference, not on training efficie
+- **1** — [Scalable Variational Bayesian Fine-Tuning of LLMs via Orthogonalized Low-Rank Adapter](1VCu7aFQzk.md) — The paper uses parameter-efficient fine-tuning (LoRA variant) but its main contribution is uncertain
+- **1** — [Generalised Flow Maps for Few-Step Generative Modelling on Riemannian Manifolds](1YHF7B8Yjk.md) — The paper aims to improve inference-time efficiency (few-step sampling) rather than training efficie
+- **1** — [Personalization Under Value Conflict: Resolving Contradictory Preferences with Paired Fine-Tuning](1YqND6cTQX.md) — The paper mentions reduced data requirements as a secondary benefit, but the main contribution is pe
+- **1** — [AnyDepth: Depth Estimation Made Easy](1aIDxrT6P4.md) — The paper proposes a lightweight decoder and data filtering for depth estimation, touching on effici
+- **1** — [Entropy-Select: Training-Free Local Entropy Token Compression for Video LLMs](1fvPaaFuy2.md) — Tangential: the paper proposes token compression for inference efficiency in video LLMs, which touch
+- **1** — [CoKV: Optimizing LLM Inference with Game-Theoretic Adaptive KV Cache](1iuaBRErka.md) — The paper addresses inference memory efficiency via KV cache optimization, which is tangential to th
+- **1** — [TSDINO: Teacher–Student Self-Distillation Framework for Robust Pre-training of Time-Series Foundation Models](1ndthBqbyK.md) — The paper uses self-distillation for pre-training but does not focus on energy efficiency or data mo
+- **1** — [Think Twice, Act Once: Token-Aware Compression and Action Reuse for Efficient Inference in Vision-Language-Action Models](1tJH2CKZZa.md) — Addresses inference efficiency via token pruning and action reuse, not training efficiency or any Su
+- **1** — [DeFake: Data-Efficient Adaptation for Generalized Deepfake Detection](1tYymCWmG5.md) — The paper focuses on data-efficient adaptation (few-shot learning for deepfake detection), which is 
+- **1** — [DoRAN: Stabilizing Weight-Decomposed Low-Rank Adaptation via Noise Injection and Auxiliary Networks](1uR6BFTY6b.md) — Focuses on parameter-efficient fine-tuning stabilization and sample efficiency, tangentially related
+- **1** — [Eliminating VAE for Fast and High-Resolution Generative Detail Restoration](1uu4Hg2Nlk.md) — The paper's primary contribution is inference acceleration and memory reduction via VAE elimination 
+- **1** — [pi-Flow: Policy-Based Few-Step Generation via Imitation Distillation](1vAte8dsap.md) — The paper uses distillation to accelerate inference via few-step generation, which touches on the li
+- **1** — [Routing Matters in MoE: Scaling Diffusion Transformers with Explicit Routing Guidance](1w1jCfYM8P.md) — MoE is efficiency-related, but the paper focuses on improving expert specialization for vision, not 
+- **1** — [KAN or MLP? Point Cloud Shows the Way Forward](1x0eJ8uUx6.md) — The paper introduces an efficient variant of KAN to reduce parameters and computational cost, but it
+- **1** — [Partial-Correlation Learning for Large Language Models with Skip-Tuning](21j00qo8P4.md) — Skip-Tuning reduces fine-tuning data by using noncontiguous segments, potentially offering efficienc
+- **1** — [LFQ: Logit-aware Final-block Quantization for Boosting the Generation Quality of Low-Bit Quantized LLMs](25B8Se2kH1.md) — Paper focuses on post-training quantization for inference efficiency, which is tangentially related 
+- **1** — [KDP: Simplifying Representation Dynamics in Kernel Space](262LUKGdQn.md) — The paper proposes a model compression method via layer pruning, which yields inference efficiency g
+- **1** — [TreeSNNs: Temporal Resolution Ensembled SNNs for Neuromorphic Action Recognition](2D0PFUA2lM.md) — Mentions SNN energy efficiency as motivation but the main contribution is accuracy improvement via t
+- **1** — [Mechanistic Interpretability of In-Context Learning Generalization through Structured Task Curriculum](2Fv4GxUElU.md) — Mentions data efficiency improvement through curriculum learning but the main contribution is mechan
+- **1** — [Hyden: A Hybrid Dual-Path Encoder for Monocular Geometry of High-resolution Images](2eL6yXLCh8.md) — The paper emphasizes inference efficiency and uses self-distillation for label generation, but the m
+- **1** — [KnItLM: Weaving Knowledge into Instruction-Tuned LLMs via Continual Pre-Training and Merging](2uctT30vTS.md) — The paper focuses on knowledge ingestion and model merging, mentioning cost avoidance of instruction
+- **1** — [Reduce What You Use: Input‑Aware Matrix‑Multiplication Pruning for LLMs](2uxuiykvA4.md) — The paper proposes inference-time pruning for matrix multiplication, tangential to Sutro Group's foc
+- **1** — [Self-Rewarding Rubric-Based Reinforcement Learning for Open-Ended Reasoning](2x9Dat4PBO.md) — The paper mentions faster and more resource-efficient training via a lightweight framework, but the 
+- **1** — [When Reasoning Meets Compression: Understanding the Effects of LLMs Compression on Large Reasoning Models](2za3iNkwXn.md) — The paper studies post-training compression (quantization, pruning, distillation) effects on reasoni
+- **1** — [On Computational Limits and Provably Efficient Criteria of Visual Autoregressive Models: A Fine-Grained Complexity Analysis](2zyfDjy5C0.md) — Mentions efficiency angle (sub-quadratic time for VAR models) but main contribution is a fine-graine
+- **1** — [Point-MoE: Large-Scale Multi-Dataset Training with Mixture-of-Experts for 3D Semantic Segmentation](35HahPHrFG.md) — Uses sparse mixture-of-experts (sparsity) but primarily addresses multi-dataset 3D segmentation scal
+- **1** — [Diversity of Transformer Layers: One Aspect of Parameter Scaling Laws](35KC8ozdIO.md) — Paper analyzes layer diversity and parameter scaling laws from an interpretability perspective, tang
+- **1** — [Precise Attribute Intensity Control in Large Language Models via Targeted Representation Editing](364eoDZes9.md) — The paper focuses on controlled text generation via representation editing, with efficiency mentione
+- **1** — [Are You Getting What You Pay For? Auditing Model Substitution in LLM APIs](3DZeEUTwhq.md) — Mentions quantization as a potential model substitution but the primary focus is on API integrity au
+- **1** — [HT-Sparse: Training-Free Query-Guided Head–Token Sparsification for Long-Video Multimodal Inference](3Oc8Pg7Kij.md) — The paper proposes training-free inference sparsity for long-video multimodal models, touching on sp
+- **1** — [DeCo-DETR: Decoupled Cognition DETR for efficient Open-Vocabulary Object Detection](3UDlRUf1es.md) — Tangential: mentions efficiency by replacing costly text encoders, but the main focus is on decouple
+- **1** — [DC-LLM: HARDWARE-FRIENDLY LLM WEIGHT COMPRESSION VIA DYNAMIC LINEAR COMBINATION](3YUL5LJ3s4.md) — Focuses on inference weight compression and data movement, not training efficiency; mentions low-pre
+- **1** — [Textual Steering Vectors Can Improve Visual Understanding in Multimodal Large Language Models](3e4vWE1kh8.md) — The paper mentions minimal computational overhead but focuses on interpretability and steering for m
+- **1** — [Look Back to Move Forward: Delay-Aware Instance Selection for Online Continual Learning](3f1s6yunAJ.md) — The paper reduces training budget via selective instance replay, a form of training efficiency, but 
+- **1** — [FlexTraj: Image-to-Video Generation with Flexible Point Trajectory Control](3fIBwnz4Tf.md) — The paper mentions efficiency in convergence and inference as a minor benefit of its sequence-concat
+- **1** — [Remaining-data-free Machine Unlearning by Suppressing Sample Contribution](3iw5t2W41F.md) — Mentions efficiency in unlearning but does not address training efficiency, data movement, sparsity,
+- **1** — [PartInfer: Enabling LLM Inference On Edge Devices](3sbM94O8Ts.md) — The paper focuses on LLM inference efficiency via neuron-level sparsity for edge devices, which is t
+- **1** — [RCStat: A Statistical Framework of Relative Contextualization in Transformers](3zdoLd2Q93.md) — The paper addresses inference-time efficiency via KV-cache compression, which is tangential to the g
+- **1** — [LinearSR: Unlocking Linear Attention for Stable and Efficient Image Super-Resolution](41Pdz4r5aB.md) — The paper improves inference efficiency through linear attention but does not primarily address ener
+- **1** — [DenseMixer: Improving MoE Post-Training with Precise Router Gradient](4HGIIekCx3.md) — Mentions MoE sparsity and training efficiency indirectly, but the main contribution is a refined rou
+- **1** — [Cognitive Alignment in Personality Reasoning: Leveraging Prototype Theory for MBTI Inference](4HenLycCQ3.md) — Uses LoRA for parameter-efficient fine-tuning, but the main contribution is cognitively aligned infe
+- **1** — [Simple yet Effective Semi-supervised Knowledge Distillation from Vision-Language Models via Dual-Head Optimization](4PxRhcO8fz.md) — Mentions distillation and minimal overhead, but the main contribution is accuracy improvement in sem
+- **1** — [QuantSparse: Comprehensively Compressing Video Diffusion Transformer with Model Quantization and Attention Sparsification](4TAG3aQljJ.md) — The paper focuses on compressing video diffusion transformers for inference using quantization and a
+- **1** — [Exploring Redundancy and Shared Representations for Transformer Models Optimization](4YBRDJ5TN3.md) — The paper touches on efficiency via model compression but does not directly advance energy-efficient
+- **1** — [Spectral-Aware Sparse Communication and Entropy-Balanced Tasking in Multi-Agent Systems](4br3ZhwhIG.md) — The paper addresses communication sparsification and energy reduction in multi-agent coordination, n
+- **1** — [Training-time Selection of Linear Vs. Softmax Attention in Layer-based Hybrid Transformers](4cP69sGjiG.md) — The paper addresses inference-time memory efficiency (KV-cache reduction) via layer selection during
+- **1** — [DLM-One: Diffusion Language Models for One-Step Sequence Generation](4g3dTrLnoF.md) — The paper uses score distillation to achieve efficient one-step inference, which tangentially relate
+- **1** — [Surrogate Modeling of 3D Rayleigh-Bénard Convection with Equivariant Autoencoders](4jMeUvcO26.md) — The paper focuses on sample and parameter efficiency for surrogate modeling, tangential to the Sutro
+- **1** — [LUCID-3D: A Lightweight and Compatible Framework for Unified 3D Understanding and Generation](4mOyMTmTD4.md) — The paper mentions reducing training cost by leveraging pretrained models as a secondary benefit, bu
+- **1** — [HybridCoT: Interleaving Latent and Text Chain-of-Thought for Efficient Reasoning](4mfGbMzTwu.md) — The paper primarily improves inference efficiency through latent reasoning, with only incidental men
+- **1** — [Lookahead Tree-Based Rollouts for Enhanced Trajectory-Level Exploration in Reinforcement Learning with Verifiable Rewards](4nLvUk8edu.md) — The paper focuses on improving trajectory diversity in RL for LLMs, claiming acceleration in policy 
+- **1** — [LoRA-DA: Data-Aware Initialization for Low-Rank Adaptation via Asymptotic Analysis](4nNqVpC3td.md) — The paper improves LoRA initialization to potentially reduce training steps, indirectly enhancing tr
+- **1** — [Beyond Homogeneous Attention: Memory-Efficient LLMs via Fourier-Approximated KV Cache](4sx3Jzrg5w.md) — Addresses memory efficiency of KV cache in inference, tangentially related to data movement and hard
+- **1** — [Enhancing LLMs for Knowledge Base Question Answering by Chain-of-Decomposition](4vfEo07rmv.md) — Mentions efficient fine-tuning and reduced LLM calls via task decomposition, but training efficiency
+- **1** — [Trading Complexity for Expressivity: Theoretical Exploration of Linear and Causal Token Mixing Strategies](4xqi0zfC9i.md) — Mentions decoding speed and cache size as design tradeoffs, but the main contribution is a theoretic
+- **1** — [TEL: A Thermodynamics-Inspired Layer for Adaptive, and Efficient Neural Learning](50gXwRjWKl.md) — Efficiency is mentioned as a property (minimal overhead, fixed compute budget) but the core contribu
+- **1** — [BaNEL: Exploration Posteriors for Generative Modeling Using Only Negative Rewards](51oGbQmAr4.md) — The paper addresses efficiency in terms of reducing reward evaluations, which is tangential to Sutro
+- **1** — [Decoupling of Experts: A Knowledge-Driven Architecture for Efficient LLMs](57Ew3NKsQK.md) — The paper mentions efficiency in scaling but its main contribution is a knowledge-driven architectur
+- **1** — [VideoMind: A Chain-of-LoRA Agent for Temporal-Grounded Video Reasoning](57EwidOnSf.md) — The Chain-of-LoRA mechanism for efficient role switching is a minor inference efficiency aspect, but
+- **1** — [Streaming Visual Geometry Transformer](5APgTKsnx8.md) — The paper uses distillation for training and FlashAttention for inference, which touches on efficien
+- **1** — [Activation-aware Probe-Query: Effective Key-Value Retrieval for Long-Context LLMs Inference](5E2iFvO6bH.md) — The paper addresses data movement and sparsity in KV cache eviction for inference, which is tangenti
+- **1** — [One-Shot Multi-Label Causal Discovery in High-Dimensional Event Sequences](5NZdiTNxU0.md) — The paper mentions efficient parallelized causal discovery on GPUs as a secondary benefit, but the c
+- **1** — [Slimming the Giant: Efficient Structured Pruning for Adapter-Tuned SAM](5Rgn6x9jGn.md) — Paper uses structured pruning for inference-time compression and latency gains, not for improving tr
+- **1** — [Scaling Weisfeiler–Leman Expressiveness Analysis to Massive Graphs with GPUs](5Rs6MpXD7D.md) — The paper accelerates a graph algorithm on GPUs but does not focus on energy-efficient AI training, 
+- **1** — [RS-MoE: Collaborative Compression for Mixture-of-Experts LLMs based on Low-Rank and Sparse Approximation](5SQbPbCU6P.md) — The paper addresses post-training compression using low-rank and sparse approximation, not directly 
+- **1** — [Vulnerability-Aware Parameter-Efficient Fine-Tuning for Enhanced Adversarial Robustness](5TitVYbQQ2.md) — The paper uses parameter-efficient fine-tuning (PEFT) for adversarial robustness, but the main contr
+- **1** — [Are EEG Foundation Models Worth It? Comparative Evaluation with Traditional Decoders in Diverse BCI Tasks](5Xwm8e6vbh.md) — Mentions scaling laws tangentially but primarily benchmarks EEG foundation models, not advancing Sut
+- **1** — [LoRA in the Right Place: Which Block to Tune in Parameter-Efficient Fine-Tuning?](5dh8x6JUJd.md) — The paper focuses on parameter-efficient fine-tuning placement for improving adaptation performance,
+- **1** — [Sampling Complexity of TD and PPO in RKHS](5gUMhTUDi0.md) — The paper discusses sample efficiency but its main contribution is theoretical convergence analysis,
+- **1** — [A Brain-Inspired Gating Mechanism Unlocks Robust Computation in Spiking Neural Networks](5h741EyfQM.md) — The paper mentions SNNs as energy-efficient but focuses on noise robustness via a biologically-inspi
+- **1** — [A Mathematical Framework for the Hierarchical Analysis of Neural Networks](5ls9sq3Tv2.md) — Tangentially relevant via model compression, but the core contribution is a mathematical framework f
+- **1** — [DTP: A Simple yet Effective Distracting Token Pruning Framework for Vision-Language Action Models](5yYQDuXzZh.md) — The paper proposes token pruning (a form of sparsity) but focuses on inference-time performance impr
+- **1** — [Spiking Graph Predictive Coding](60EGqyRnhd.md) — Efficiency is mentioned as a side benefit of event-driven spiking computation, but the paper's main 
+- **1** — [DBLP: Noise Bridge Consistency Distillation For Efficient And Reliable Adversarial Purification](60RXHBGag4.md) — Mentions fast inference via distillation, but the main contribution is adversarial purification not 
+- **1** — [BlindSight: Harnessing Sparsity for Efficient Vision-Language Models](63L0Vsvpn9.md) — The paper leverages sparsity and a hardware-aware kernel for inference optimization, not training, m
+- **1** — [DistillMatch: Leveraging Knowledge Distillation from Vision Foundation Model for Multimodal Image Matching](64xbSPBy31.md) — The paper uses knowledge distillation to transfer features from a vision foundation model, resulting
+- **1** — [Scaling Law for Catastrophic Forgetting via Gradient Products](68TggRP3Bb.md) — The paper studies scaling laws for catastrophic forgetting, which is tangentially related to the gro
+- **1** — [Stabilizing MoE Reinforcement Learning by Aligning Training and Inference Routers](6LORvHYkV3.md) — The paper focuses on stabilizing RL training in MoE models by aligning routers, mentioning training 
+- **1** — [SCAR: Shapley Credit Assignment for More Efficient RLHF](6OxvdqP6RH.md) — The paper improves RLHF training efficiency through dense rewards and faster convergence, but its ma
+- **1** — [DomED: Redesigning Ensemble Distillation for Domain Generalization](6QMQGi9iw9.md) — Mentions computational cost reduction via tailored data allocation but main contribution is domain g
+- **1** — [TASTE: Text-Aligned Speech Tokenization and Embedding for Spoken Language Modeling](6STb8DauN1.md) — The paper uses LoRA for parameter-efficient fine-tuning and reduces sequence length via tokenization
+- **1** — [IOMM: Fast Pre-training of Unified Multimodal Models without Text-Image Pairs](6TkRJ1HgSd.md) — The paper mentions training efficiency (fast pre-training, reduced GPU hours) but its main contribut
+- **1** — [Beyond Benchmarks: Understanding Mixture-of-Experts Models through Internal Mechanisms](6fmQJGaA8p.md) — Paper analyzes sparsity and expert utilization in MoE models, tangential to energy-efficient trainin
+- **1** — [Conceptrol: Concept Control of Zero-shot Personalized Image Generation](6hudf7aLUL.md) — Mentions no computational overhead but primarily focuses on personalized image generation control, n
+- **1** — [A Learn-to-Optimize Approach for Coordinate-Wise Step Sizes for Quasi-Newton Methods](6iYVv72Pk6.md) — The paper improves optimizer step sizes for faster convergence, indirectly reducing training time an
+- **1** — [NoLoRA: Nonlinear Low-Rank Adaptation for Parameter-Efficient Fine-Tuning](6vIc5PdqQV.md) — The paper focuses on improving fine-tuning expressiveness via nonlinear low-rank adaptation, mention
+- **1** — [Routing-Deconstructed LoRA in Federated Fine-Tuning](6xB2mKOGqx.md) — Paper focuses on federated LoRA with a secondary mention of reducing communication cost via alternat
+- **1** — [Learning What Matters: Prioritized Concept Learning via Relative Error-driven Sample Selection](6xRTMnSQ4K.md) — The paper proposes a sample selection curriculum to improve data and compute efficiency, which is ta
+- **1** — [DeCoP: Enhancing Self-Supervised Time Series Representation with Dependency Controlled Pre-training](71GdLqicyH.md) — The paper reduces FLOPs as a side benefit, but its core contribution is time-series representation l
+- **1** — [BoundaryDPT: Pushing the Boundaries of Depth Pruning for Vision Transformers](71P7ZaKnaO.md) — The paper focuses on inference-time speedup via depth pruning, not energy-efficient training or data
+- **1** — [QueryStream: Advancing Streaming Video Understanding with Query-Aware Pruning and Proactive Response](738HjJEbml.md) — The paper focuses on inference-time token pruning for streaming video, not training efficiency, thus
+- **1** — [LLMs as Scalable, General-Purpose Simulators For Evolving Digital Agent Training](762D8ndh2E.md) — The paper addresses data-efficient scaling for agent training via synthetic data, tangential to the 
+- **1** — [PRKV:Page Restruct KV Cache for High Accuracy and Efficiency LLM Generation](7FM0GBFhe5.md) — The paper focuses on inference efficiency through KV cache optimization, tangentially related to dat
+- **1** — [Unveiling the Scaling Law of PINNs under Non-Euclidean Geometry](7NS4qtPM2Q.md) — The paper addresses optimization scaling challenges for PINNs, which tangentially relates to trainin
+- **1** — [Critical attention scaling in long-context transformers](7SLtElfqCW.md) — The paper addresses attention scaling for long contexts but does not focus on training efficiency, d
+- **1** — [Qronos: Correcting the Past by Shaping the Future... in Post-Training Quantization](7axclBCYul.md) — While quantization is a named priority, the paper focuses on post-training quantization for inferenc
+- **1** — [Temporal superposition and feature geometry of RNNs under memory demands](7cMzTpbJHC.md) — The paper studies representational geometry and sparsity in RNNs under memory constraints, tangentia
+- **1** — [N-Gram Induction Heads for In-Context RL: Improving Stability and Reducing Data Needs](7gLNA6nT5d.md) — The paper's main contribution is improving in-context RL with n-gram induction heads, tangentially m
+- **1** — [Prompt, Predict, Correct: LLM-TrajEcho for Closed-Loop Trajectory Forecasting via Online Prompt Feedback](7hGtDCRgDx.md) — The paper uses LoRA for parameter-efficient fine-tuning, which marginally relates to training effici
+- **1** — [MEDSPIKEFORMER: All Neurons Matter for Medical Image Segmentation](7j85GkcPX1.md) — Tangentially mentions energy efficiency of spiking neural networks, but the main contribution is imp
+- **1** — [FLoRA-NA: Nearly Accurate Aggregation for Federated Low-Rank Adaptation](7n5eoDZdZ5.md) — The paper addresses communication efficiency in federated learning, tangentially relevant to data mo

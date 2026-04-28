@@ -1,0 +1,19 @@
+# DeCo-DETR: Decoupled Cognition DETR for efficient Open-Vocabulary Object Detection
+
+**Venue:** iclr2026 (Poster)
+**Authors:** 
+**OpenReview:** [https://openreview.net/forum?id=3UDlRUf1es](https://openreview.net/forum?id=3UDlRUf1es)
+
+## Relevance
+
+**LLM score:** 1/3 — Tangential: mentions efficiency by replacing costly text encoders, but the main focus is on decoupled detection architecture, not energy-efficient training or Sutro Group's core priorities.
+**Keyword hits:** `knowledge distillation, distillation`
+
+## TLDR
+(none provided)
+
+## Abstract
+Open-Vocabulary Object Detection (OVOD) plays a critical role in autonomous driving and human-computer interaction by enabling perception beyond closed-set categories. However, current approaches predominantly rely on multimodal fusion, facing dual limitations: multimodal fusion methods incur heavy computational overhead from text encoders, while task-coupled designs compromise between detection precision and open-world generalization. To address these challenges, we propose Decoupled Cognition DETR, a vision framework featuring a three-stage cognitive distillation mechanism: Dynamic Hierarchical Concept Pool constructs self-evolving concept prototypes using LLaVA-generated region descriptions filtered by CLIP alignment, aiming to replace costly text encoders and reduce computational overhead; Hierarchical Knowledge Distillation decouples visual-semantic space mapping via prototype-centric projection, avoiding task coupling to enhance open-world generalization; Parametric Decoupling Training coordinates localization and cognition through dual-stream gradient isolation, further optimizing detection precision. Extensive experiments on the common OVOD evaluation protocol demonstrated that DeCo-DETR achieves state-of-the-art performance compared to existing OVOD methods. It provides a new paradigm for extending OVOD to more real-world applications.
+
+## Keywords
+Open-Vocabulary Object Detection, Knowledge Distillation, Multi-modal
