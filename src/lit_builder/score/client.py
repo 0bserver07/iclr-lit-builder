@@ -8,7 +8,7 @@ Selection is via the `LIT_PROVIDER` env var:
 The model is resolved by `get_model()`:
     LIT_MODEL=<anything>     -> override (highest priority)
     else for anthropic       -> HAIKU_MODEL
-    else for ollama          -> OLLAMA_DEFAULT_MODEL ("gpt-oss:120b")
+    else for ollama          -> OLLAMA_DEFAULT_MODEL ("deepseek-v4-pro:cloud")
 
 Both providers expose a `.messages.create(model, max_tokens, system, messages)`
 method that returns an object with `.content[0].text`. This means the rest of
@@ -27,7 +27,7 @@ from typing import Any
 HAIKU_MODEL = "claude-haiku-4-5-20251001"
 
 # Default Ollama Cloud model. Override with LIT_MODEL.
-OLLAMA_DEFAULT_MODEL = "gpt-oss:120b"
+OLLAMA_DEFAULT_MODEL = "deepseek-v4-pro:cloud"
 
 OLLAMA_DEFAULT_HOST = "https://ollama.com"
 

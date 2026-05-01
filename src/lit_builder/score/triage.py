@@ -94,7 +94,7 @@ def score_one(client: Any, paper: Paper) -> tuple[int, str]:
     prompt = build_triage_prompt(paper)
     response = client.messages.create(
         model=get_model(),
-        # gpt-oss models consume reasoning tokens against this budget, so 200
+        # deepseek/reasoning models consume thinking tokens against this budget, so 200
         # (enough for Haiku) truncates them. 600 covers both providers.
         max_tokens=600,
         system=_SYSTEM_PROMPT,

@@ -2,7 +2,23 @@
 
 Pull ML conference paper lists, filter for the [Sutro Group](https://github.com/cybertronai/SutroYaro) lens (energy-efficient training + broader training-efficiency), and produce an annotated, browsable literature base.
 
+**Live site:** https://0bserver07.github.io/iclr-lit-builder/
+
 Source: [papercopilot/paperlists](https://github.com/papercopilot/paperlists). Starts with ICLR 2026 (~20K records); generalizes to NeurIPS, ICML, etc.
+
+## Latest run — ICLR 2026
+
+| | Count |
+|--|------:|
+| Papers ingested | **19,813** |
+| Keyword-filtered (sent to LLM) | 4,842 |
+| **Score 3** (directly Sutro-relevant) | **40** |
+| Score 2 (relevant) | 25 |
+| Score 1 (tangential) | 134 |
+| Score 0 (rejected) | 4,643 |
+| Markdown rendered | 4,196 files |
+
+[**→ Browse the score-3 list**](https://0bserver07.github.io/iclr-lit-builder/papers/iclr2026/)
 
 ## Pipeline
 
@@ -14,24 +30,44 @@ Each stage is a CLI subcommand and writes to a SQLite database (`data/db/lit.sql
 
 ## LLM provider — pick one
 
-The scoring stage uses an LLM. Two providers are supported, controlled by `LIT_PROVIDER`:
+The scoring stage uses an LLM. Two providers are supported, controlled by `LIT_PROVIDER`. Override the model at any time with `LIT_MODEL=<name>`.
 
 ```bash
 # Anthropic (default)
 export LIT_PROVIDER=anthropic
 export ANTHROPIC_API_KEY=sk-ant-...
-# default model: claude-haiku-4-5-20251001 (override with LIT_MODEL)
+# default model: claude-haiku-4-5-20251001
+# override:  export LIT_MODEL=claude-sonnet-4-6
 
-# Ollama Cloud (gpt-oss, deepseek, etc.)
+# Ollama Cloud
 export LIT_PROVIDER=ollama
 export OLLAMA_API_KEY=...
-# default model: gpt-oss:120b
-# override:  export LIT_MODEL=deepseek-v4-pro:cloud
+# default model: deepseek-v4-pro:cloud
 
 # Ollama local (no key needed)
 export LIT_PROVIDER=ollama
 export OLLAMA_HOST=http://localhost:11434
 export LIT_MODEL=llama3.1:8b
+```
+
+### Solid Ollama Cloud models
+
+Verified to work with the scoring prompt (`lit score`) and the deepen prompt (`lit deepen`). Swap with `LIT_MODEL=<name>`.
+
+| Model | Notes |
+|-------|-------|
+| `deepseek-v4-pro:cloud` | **Default.** Reasoning model; ~5s per paper at 200-token limit. Best price/quality. |
+| `deepseek-v4-flash:cloud` | Faster, lower latency, slightly less robust on edge cases. |
+| `gpt-oss:120b` | Strong general scorer. Slightly heavier than deepseek-v4-pro. |
+| `qwen3:235b-cloud` | Largest. Best for the deepen stage on borderline papers. |
+| `llama3.1:70b` | Solid baseline; available locally too. |
+
+### Solid local models (Ollama, no API key)
+
+```bash
+LIT_MODEL=llama3.1:8b      # 4.7 GB, fast, decent
+LIT_MODEL=qwen3:14b        # 8 GB, better reasoning
+LIT_MODEL=deepseek-v4:7b   # 4 GB, distilled reasoning model
 ```
 
 ## Quickstart
@@ -52,7 +88,7 @@ lit serve                                 # local mkdocs preview
 
 ## Real example output
 
-Scoring 5 ICLR 2026 candidates on `gpt-oss:120b` (Ollama Cloud), ~5s per paper:
+Scoring 5 ICLR 2026 candidates on `deepseek-v4-pro:cloud` (Ollama Cloud), ~5s per paper:
 
 | score | title | reason |
 |---|---|---|
@@ -84,12 +120,13 @@ configs/keywords.yaml   # editable keyword groups
 
 | Stage | iclr2026 |
 |---|---|
-| fetch | done — 19,814 raw records (93 MB) |
-| ingest | done — 19,814 in DB; 5,358 accepted (Poster + Oral + Conditional*) |
+| fetch | done — 19,813 raw records (93 MB) |
+| ingest | done — 19,813 in DB |
 | filter | done — 4,842 keyword candidates |
-| score | partial (5 / 4,842 scored) — provider-agnostic, runs against either Anthropic or Ollama |
+| score | done — 4,842 / 4,842 LLM-scored via `deepseek-v4-pro:cloud` (40 at score 3, 25 at 2, 134 at 1, 4,643 at 0) |
 | deepen | implemented; on-demand per paper |
-| render | implemented; not yet written for iclr2026 |
+| render | done — 4,196 markdown pages + index |
+| publish | live at https://0bserver07.github.io/iclr-lit-builder/ |
 
 ## Tests
 

@@ -86,7 +86,7 @@ def deepen_one(client: Any, paper: Paper, keyword_hits: list[str]) -> DigestResu
     prompt = build_deepen_prompt(paper, keyword_hits=keyword_hits)
     response = client.messages.create(
         model=get_model(),
-        # See triage.py for why this is generous: gpt-oss reasoning tokens.
+        # See triage.py for why this is generous: deepseek reasoning tokens.
         max_tokens=1500,
         system=_SYSTEM_PROMPT,
         messages=[{"role": "user", "content": prompt}],
